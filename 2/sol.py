@@ -51,13 +51,4 @@ for i in range(0, n):
 	 
 	
 print 'col = ' + str(col)
-print 'row = ' + str(row)	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+print 'row = ' + str(row)
