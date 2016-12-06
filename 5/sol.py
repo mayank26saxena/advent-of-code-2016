@@ -16,11 +16,11 @@ while count < 8 :
 		i = int(position, 16)
 		char = hexa[6]
 		if i < 8 :
-			print "Position %s i %d " % (position , i)
+			#print "Position %s i %d " % (position , i)
 			if word[i] == 's' :
 				count = count + 1
 				word = word[:i] + char + word[i + 1:]
-			print "Word is %s " % word
+			#print "Word is %s " % word
 			#print 's = %s ' % s
 	index = index + 1
 
